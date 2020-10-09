@@ -3,3 +3,28 @@
   margin: 0;
   padding: 0;
 }
+
+.container{
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+.item{
+  display: inline-block;
+  position:relative;
+}
+
+.favorite{
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom:0;
+  transform: translate(-50%,0);
+}
+
+.badge{
+  
+}
