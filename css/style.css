@@ -5,10 +5,13 @@
 }
 
 .container{
-  width: 800px;
+  width: 1000px;
   margin: auto;
-  margin-top: 5vh;
   background-color: white;
+}
+
+section{
+  margin-top: 25px;
 }
 
 .item{
@@ -27,6 +30,7 @@
   display: none;
 }
 
+/* Sibling selector & hover: il cuore appare quando il puntatore passa sull'immagine */
 .image:hover + .heart{
   display: inline;
 }
@@ -35,8 +39,16 @@
   background-color: red;
 }
 
+.bg_red::after{
+  content: "-5%";
+}
+
 .bg_green{
   background-color: green;
+}
+
+.bg_green::after{
+  content: '-30%';
 }
 
 .badge{
