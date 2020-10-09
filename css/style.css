@@ -16,7 +16,7 @@
   position: relative;
 }
 
-.favorite{
+.heart{
   color: red;
   font-size: 40px;
   text-align: center;
@@ -24,6 +24,11 @@
   left: 50%;
   bottom:0;
   transform: translate(-50%,0);
+  display: none;
+}
+
+.image:hover + .heart{
+  display: inline;
 }
 
 .bg_red{
