@@ -4,13 +4,14 @@
   padding: 0;
 }
 
+/* Soluzione responsive primitiva*/
 .container{
-  width: 1000px;
+  display: inline;
   margin: auto;
-  background-color: white;
+  text-align: center;
 }
 
-section{
+.row{
   margin-top: 25px;
 }
 
